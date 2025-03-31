@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin-bottom: 16px;
+}
+
+button:hover {
+  opacity: .5;
+}
+
+.button-danger, .button-primary, .button-clear {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.button-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.button-clear {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  color: #333;
+}
